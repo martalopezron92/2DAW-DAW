@@ -1,0 +1,28 @@
+# Ignorar todo por defecto
+*
+
+# Excepciones: Permitir solo la práctica001 y archivos necesarios
+
+# Permitir este archivo .gitignore
+!.gitignore
+
+# Permitir README si existe
+!README.md
+
+# Permitir la estructura de carpetas hasta llegar a practica001
+!docs/
+!docs/u01/
+!docs/u01/practica/
+
+# Permitir específicamente la práctica001 y su contenido
+!docs/u01/practica/DAW-U1.-Practica001.md
+
+# Si hay assets relacionados con la práctica001, también incluirlos
+!docs/u01/practica/assets/
+!docs/u01/practica/assets/**
+
+# Comentarios para explicar qué hace este .gitignore:
+# - Ignora TODO el contenido del repositorio
+# - EXCEPTO la práctica001 (DAW-U1.-Practica001.md)
+# - EXCEPTO los assets relacionados con la práctica001
+# - EXCEPTO este mismo archivo .gitignore
