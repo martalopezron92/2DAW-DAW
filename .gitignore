@@ -14,6 +14,10 @@
 !docs/u01/
 !docs/u01/practica/
 
+# Permitir la carpeta de actividades y la actividad A01
+!docs/u01/actividades/
+!docs/u01/actividades/A01-Probando-DevOps.md
+
 # Permitir específicamente la práctica001 y su contenido
 !docs/u01/practica/DAW-U1.-Practica001.md
 
