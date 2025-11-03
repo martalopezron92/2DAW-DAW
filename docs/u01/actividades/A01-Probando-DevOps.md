@@ -16,6 +16,39 @@ Vas a desarrollar una **página web personal de presentación** que se despliegu
 2. **Tus proyectos de DAW** (una galería visual simple)
 3. **Información sobre DevOps** (lo que has aprendido en clase)
 4. **Despliegue automático** con GitHub Actions
+
+```
+name: 🚀 Despliegue automático de mi portfolio
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Descargar código
+      uses: actions/checkout@v4
+      
+    - name: ⚙️ Configurar GitHub Pages
+      uses: actions/configure-pages@v4
+      
+    - name: 📦 Subir archivos
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '.'
+        
+    - name: 🌐 Desplegar a GitHub Pages
+      uses: actions/deploy-pages@v4
+```
+
 5. **Al menos 3 actualizaciones** documentadas en el historial de commits
 
 ---
