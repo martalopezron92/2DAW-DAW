@@ -17,6 +17,7 @@
 # Permitir la estructura de carpetas de teoria/extra
 !docs/u01/teoria/
 !docs/u01/teoria/extra/
+!docs/u01/teoria/extra/**
 
 # Permitir la carpeta de actividades y la actividad A01
 !docs/u01/actividades/
