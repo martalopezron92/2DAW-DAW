@@ -14,9 +14,14 @@
 !docs/u01/
 !docs/u01/practica/
 
+# Permitir la estructura de carpetas de teoria/extra
+!docs/u01/teoria/
+!docs/u01/teoria/extra/
+
 # Permitir la carpeta de actividades y la actividad A01
 !docs/u01/actividades/
 !docs/u01/actividades/A01-Probando-DevOps.md
+!docs/u01/actividades/A02-Documentando-proyectos.md
 
 # Permitir específicamente la práctica001 y su contenido
 !docs/u01/practica/DAW-U1.-Practica001.md
