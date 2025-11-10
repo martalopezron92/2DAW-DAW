@@ -1002,23 +1002,6 @@ Este comando:
 
 ---
 
-## 🎯 Criterios de Evaluación
-
-| Criterio | Puntos |
-|----------|--------|
-| **Código funcional** | 20% |
-| **Documentación Javadoc completa** | 30% |
-| **Javadoc generado correctamente** | 20% |
-| **Documentación MkDocs** | 20% |
-| **Integración Javadoc + MkDocs** | 10% |
-
-### Bonus (+10% cada uno)
-- ✨ Publicación en GitHub Pages
-- ✨ Personalización avanzada del tema MkDocs
-- ✨ Documentación especialmente clara y completa
-
----
-
 ## 💡 Consejos Rápidos
 
 ### Para Javadoc
@@ -1080,11 +1063,6 @@ Usa siempre: `python -m mkdocs` en lugar de solo `mkdocs`
 
 ## 📚 Recursos de Referencia
 
-### En este Repositorio
-- `docs/javadoc-guia.md` - Guía completa de tags Javadoc
-- `docs/mkdocs-personalizacion.md` - Personalización de MkDocs
-- `src/CalculadoraBuena.java` - Ejemplo de código bien documentado
-
 ### Documentación Oficial
 - [Javadoc Tool](https://docs.oracle.com/en/java/javase/11/tools/javadoc.html)
 - [MkDocs](https://www.mkdocs.org/)
@@ -1092,52 +1070,3 @@ Usa siempre: `python -m mkdocs` en lugar de solo `mkdocs`
 
 ---
 
-## 🏆 Ejemplo Simplificado Completo
-
-Si te quedas atascado, aquí tienes la estructura mínima:
-
-**src/Ejemplo.java:**
-```java
-/**
- * Conversor de temperaturas.
- * @author Mi Nombre
- * @version 1.0
- */
-public class Ejemplo {
-    /**
-     * Convierte Celsius a Fahrenheit.
-     * @param celsius temperatura en Celsius
-     * @return temperatura en Fahrenheit
-     */
-    public static double celsiusToFahrenheit(double celsius) {
-        return (celsius * 9/5) + 32;
-    }
-    
-    // ... más métodos ...
-    
-    public static void main(String[] args) {
-        System.out.println("32°C = " + celsiusToFahrenheit(32) + "°F");
-    }
-}
-```
-
-**mkdocs.yml:**
-```yaml
-site_name: Mi Conversor
-theme:
-  name: material
-nav:
-  - 'Inicio': 'index.md'
-  - 'API': 'api/index.html'
-```
-
-**docs/index.md:**
-```markdown
-# Mi Conversor de Temperaturas
-
-Programa que convierte entre Celsius y Fahrenheit.
-```
-
----
-
-**¡Éxito con la actividad! Si tienes dudas, pregunta al profesor. 🚀**
