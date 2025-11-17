@@ -149,7 +149,7 @@ main {
     margin: 2rem auto;
     padding: 2rem;
 }
-
+```
 ---
 
 ### **Paso 1.4: Preparar archivos para el primer commit**
