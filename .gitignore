@@ -28,6 +28,7 @@
 
 # Permitir específicamente la práctica001 y su contenido
 !docs/u01/practica/DAW-U1.-Practica001.md
+!docs/u01/practica/DAW-U1.-Practica002.md
 
 # Si hay assets relacionados con la práctica001, también incluirlos
 !docs/u01/practica/assets/

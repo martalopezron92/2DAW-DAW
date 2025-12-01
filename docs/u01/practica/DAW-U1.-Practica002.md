@@ -15,9 +15,11 @@ tags:
   - Documentación
   - GitHub Pages
 --- -->
-# UD 1 - P01: CI/CD, documentación y GitHub Pages
+# UD 1 - P02: CI/CD, documentación y GitHub Pages
 
-## Descripción
+## Relación 2
+
+### Descripción
 
 **Actividad:** *Documentación Automatizada y Publicación en GitHub Pages*
 
@@ -28,7 +30,7 @@ Vas a partir de este **[repositorio base](https://github.com/revilofe/2526_DAW_u
 * `update_readme.py` — ejecuta los tests y actualiza el `README.md`.
 * `.github/workflows/ci.yml` — *workflow* básico que ejecuta el script y realiza *commit* automático usando `git-auto-commit-action`.
 
-### Objetivo general
+#### Objetivo general
 
 Aprender, de forma incremental, a:
 
@@ -112,6 +114,41 @@ Prepara tu proyecto intermodular para **la generación de documentación en HTML
    * Selecciona como fuente: **Deploy from a branch** → **gh-pages**.
 5. **Verifica** que la documentación es accesible públicamente en:
    * `https://TU-USUARIO.github.io/TU-REPOSITORIO/`
+
+**Ejemplo de workflow básico:**
+
+```yaml
+name: Generar y Publicar Documentación
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+      
+      - name: Configurar entorno (Java/Python/Node)
+        uses: actions/setup-java@v4  # o setup-python, setup-node
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      
+      - name: Generar documentación HTML
+        run: |
+          javadoc -d docs -sourcepath src -subpackages com.example
+      
+      - name: Publicar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+```
 
 > **Entregables de esta parte:** 
 > - Enlace al repositorio con el workflow funcionando.
