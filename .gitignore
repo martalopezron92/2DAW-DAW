@@ -13,6 +13,9 @@
 !docs/
 !docs/u01/
 !docs/u01/practica/
+!docs/u02/
+!docs/u02/practica/
+!docs/u02/actividades/
 
 # Permitir la estructura de carpetas de teoria/extra
 !docs/u01/teoria/
@@ -25,6 +28,7 @@
 !docs/u01/actividades/A02-Documentando-proyectos.md
 !docs/u01/actividades/A03-TrabajandoConGityGithub.md
 !docs/u01/actividades/A04-EjerciciosGitHubActions.md
+!docs/u02/actividades/A01-PrimerContactoConDocker.md
 
 # Permitir específicamente la práctica001 y su contenido
 !docs/u01/practica/DAW-U1.-Practica001.md
