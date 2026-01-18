@@ -1,23 +1,4 @@
-<!-- ---
-title: "UD 2 - P0: Primer contacto con Docker"
-description: "Instalación de Docker y primeros pasos con contenedores e imágenes"
-summary: "Actividad práctica inicial para instalar Docker y familiarizarse con comandos básicos de contenedores e imágenes."
-authors:
-    - Eduardo Fdez
-date: 2025-01-12
-icon: "material/file-document-edit"
-permalink: /daw/unidad2/p2.0
-categories:
-    - DAW
-tags:
-    - Docker
-    - Instalación
-    - Contenedores
-    - Imágenes
-    - Primeros pasos
---- -->
-
-# Primer contacto con Docker
+# Relacion 2.1: Primer contacto con Docker
 
 ### Descripción
 
@@ -38,7 +19,7 @@ Aprender a:
 
 ---
 
-## 🔧 Parte 1: Instalación de Docker
+## Parte 1: Instalación de Docker
 
 ### 1.1. Docker Engine vs Docker Desktop
 
@@ -50,12 +31,12 @@ Docker Engine es el motor de contenedores de código abierto que ejecuta los con
 
 **Características:**
 
-- ✅ Software base y fundamental de Docker
-- ✅ Se instala directamente en el sistema operativo
-- ✅ Funciona principalmente mediante línea de comandos (CLI)
-- ✅ Ligero y eficiente
-- ✅ Ideal para servidores Linux
-- ✅ Disponible para Linux únicamente (nativo)
+- Software base y fundamental de Docker
+- Se instala directamente en el sistema operativo
+- Funciona principalmente mediante línea de comandos (CLI)
+- Ligero y eficiente
+- Ideal para servidores Linux
+- Disponible para Linux únicamente (nativo)
 
 **Componentes principales:**
 
@@ -79,13 +60,13 @@ Docker Desktop es una aplicación completa que incluye Docker Engine y herramien
 
 **Características:**
 
-- ✅ Incluye Docker Engine + herramientas adicionales
-- ✅ Interfaz gráfica (GUI) para gestión visual
-- ✅ Disponible para Windows, macOS y Linux
-- ✅ Integración con el sistema operativo
-- ✅ Fácil instalación y configuración
-- ✅ Incluye Docker Compose integrado
-- ✅ Kubernetes opcional (cluster local)
+- Incluye Docker Engine + herramientas adicionales
+- Interfaz gráfica (GUI) para gestión visual
+- Disponible para Windows, macOS y Linux
+- Integración con el sistema operativo
+- Fácil instalación y configuración
+- Incluye Docker Compose integrado
+- Kubernetes opcional (cluster local)
 
 **Componentes adicionales:**
 
@@ -235,8 +216,8 @@ wsl --list --verbose
 #### **Paso 3: Instalar Docker Desktop**
 
 1. Durante la instalación, asegúrate de marcar:
-   - ✅ **Use WSL 2 instead of Hyper-V** (recomendado)
-   - ✅ **Add shortcut to desktop** (opcional)
+   - **Use WSL 2 instead of Hyper-V** (recomendado)
+   - **Add shortcut to desktop** (opcional)
 
 2. Completa la instalación y reinicia el equipo si se solicita
 
@@ -327,7 +308,7 @@ docker run hello-world
 
 ---
 
-## 🐳 Parte 2: Primeros pasos con contenedores
+## Parte 2: Primeros pasos con contenedores
 
 ### 2.1. Tu primer contenedor: Hello World
 
@@ -581,9 +562,9 @@ docker rm -f mi-nginx
 
 **Contiene:**
 
-- ✅ Imágenes oficiales (mantenidas por Docker y los proyectos)
-- ✅ Imágenes de la comunidad
-- ✅ Imágenes privadas (con cuenta de pago)
+- Imágenes oficiales (mantenidas por Docker y los proyectos)
+- Imágenes de la comunidad
+- Imágenes privadas (con cuenta de pago)
 
 ---
 
@@ -699,7 +680,7 @@ docker image prune -a
 
 ---
 
-## 🎯 Parte 4: Ejercicios prácticos
+## Parte 4: Ejercicios prácticos
 
 ### Ejercicio 1: Explorar diferentes distribuciones Linux
 
@@ -734,7 +715,7 @@ docker image prune -a
 
 **Tareas:**
 
-1. Ejecuta un contenedor de Apache:
+1. Ejecuta un contenedor de Apache
 2. Accede a `http://localhost:8081` en tu navegador. Deberías ver "It works!"
 3. Personaliza la página:
    ```bash
@@ -906,7 +887,7 @@ docker image prune -a
 
 ---
 
-## 📝 Parte 5: Documentación de la práctica
+## Parte 5: Documentación de la práctica
 
 ### 5.1. Entrega
 
@@ -962,7 +943,7 @@ Responde a las siguientes preguntas:
 
 ---
 
-## 🎓 Recursos adicionales
+## Recursos adicionales
 
 ### Documentación oficial
 
