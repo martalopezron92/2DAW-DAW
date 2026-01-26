@@ -30,11 +30,14 @@
 !docs/u01/actividades/A04-EjerciciosGitHubActions.md
 !docs/u02/actividades/A01-PrimerContactoConDocker.md
 !docs/u02/actividades/A02-DespliegueAplicacionTemperaturas.md
+!docs/u02/actividades/A03-WordpressCondockercompose.md
+
 
 # Permitir específicamente la práctica001 y su contenido
 !docs/u01/practica/DAW-U1.-Practica001.md
 !docs/u01/practica/DAW-U1.-Practica002.md
 !docs/u02/practica/DAW-U2.-Practica001.md
+!docs/u02/practica/DAW-U2.-Practica002.md
 
 # Si hay assets relacionados con la práctica001, también incluirlos
 !docs/u01/practica/assets/

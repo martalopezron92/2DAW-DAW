@@ -1,5 +1,5 @@
 
-# Relación 2.1: Despliegue de la aplicación Guestbook
+# Relación 2.2: Despliegue de la aplicación Guestbook
 
 ### Descripción
 
