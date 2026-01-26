@@ -1,25 +1,5 @@
----
-title: "UD 2 - P4+P8: Despliegue de Tomcat con Nginx - Manual y con Docker Compose"
-description: "Despliegue completo de aplicación Java con servidor de aplicaciones y proxy inverso, utilizando gestión manual y Docker Compose"
-summary: "Práctica integral para desplegar aplicaciones Java en Tomcat con Nginx como proxy inverso, primero mediante gestión manual de contenedores y posteriormente automatizando el proceso con Docker Compose."
-authors:
-    - Eduardo Fdez
-date: 2025-01-12
-icon: "material/file-document-edit"
-permalink: /daw/unidad2/p2.4-8
-categories:
-    - DAW
-tags:
-    - Docker
-    - Docker Compose
-    - Tomcat
-    - Nginx
-    - Proxy inverso
-    - Java
-    - Bind mount
----
 
-## Relación 2.4+2.8 (Práctica Integrada)
+# Práctica 2.2 
 
 ### Descripción
 
@@ -646,15 +626,6 @@ Desglose aproximado:
     - Tabla comparativa: 10-15 min
     - Preguntas de análisis: 20-25 min
 
-**Notas sobre la estimación:**
-
-- Los tiempos están ajustados considerando que los alumnos:
-    - Ya han completado la Práctica P2.001 (experiencia previa con Docker)
-    - Han recibido explicación en clase sobre Docker Compose
-    - Han realizado una práctica guiada de Docker Compose con WordPress
-- La documentación y capturas de pantalla deben realizarse en paralelo mientras se completan las tareas.
-- Se recomienda distribuir la práctica en 2 sesiones de trabajo de 2.5-3 horas cada una.
-- Los alumnos más familiarizados con Docker podrían completarla en aproximadamente 4-5 horas.
 
 ---
 
@@ -693,6 +664,4 @@ Desglose aproximado:
 
 ---
 
-### Presentación de la práctica
 
-[:fontawesome-solid-file-pdf: Descargar presentación P2.4](https://revilofe.github.io/slides/section4-daw/DAW-U2.4.-Tomcat.html){ .md-button }
