@@ -1,24 +1,4 @@
----
-title: "UD 2 - P7: Despliegue de WordPress con Docker Compose"
-description: "Automatización del despliegue de WordPress y MariaDB con Docker Compose"
-summary: "Actividad práctica para desplegar WordPress con MariaDB utilizando Docker Compose con volúmenes y bind mounts."
-authors:
-    - Eduardo Fdez
-date: 2025-01-12
-icon: "material/file-document-edit"
-permalink: /daw/unidad2/p2.7
-categories:
-    - DAW
-tags:
-    - Docker
-    - Docker Compose
-    - WordPress
-    - MariaDB
-    - CMS
-    - Persistencia
----
-
-## Relación 2.7
+# Relación 2.3
 
 ### Descripción
 

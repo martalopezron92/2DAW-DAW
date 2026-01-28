@@ -42,6 +42,8 @@
 # Si hay assets relacionados con la práctica001, también incluirlos
 !docs/u01/practica/assets/
 !docs/u01/practica/assets/**
+!docs/u02/practica/recursos/
+!docs/u02/practica/recursos/**
 
 # Comentarios para explicar qué hace este .gitignore:
 # - Ignora TODO el contenido del repositorio
