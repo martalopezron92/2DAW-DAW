@@ -71,8 +71,8 @@ Esta primera parte se centra en comprender cada componente y comando Docker nece
 
 2. Descarga o crea un archivo WAR de ejemplo. Puedes:
    
-    - Descargar `sample.war` de la siguinete carpeta del repositorio: [recursos](./recursos/)
-      En el README de la carpeta viene una explicación detallada.
+    - Descargar `sample.war` de la siguinete carpeta del repositorio: [recursos](./recursos/).
+    - En el README de la carpeta viene una explicación detallada de como trabajar con este archivo.
     - Utilizar cualquier aplicación WAR simple que tengas disponible
     - Crear una aplicación Java básica y empaquetarla como WAR
 
