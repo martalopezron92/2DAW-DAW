@@ -1,4 +1,4 @@
-# Recursos para la Práctica 2.4/2.8 - Tomcat con Docker
+# Recursos para la Práctica 2.2 - Tomcat con Docker
 
 Este directorio contiene los recursos necesarios para completar la práctica de despliegue de Tomcat con Nginx.
 
