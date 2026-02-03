@@ -724,7 +724,3 @@ Las publicadas en la plataforma Moodle del curso.
 - MySQL/MariaDB en contenedores: [https://dev.mysql.com/doc/refman/8.0/en/docker-mysql-more-topics.html](https://dev.mysql.com/doc/refman/8.0/en/docker-mysql-more-topics.html)
 
 ---
-
-### Presentación de la práctica
-
-[:fontawesome-solid-file-pdf: Descargar presentación](https://revilofe.github.io/slides/section4-daw/DAW-U2.11.-PHPBaseDatos.html){ .md-button }
