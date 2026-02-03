@@ -1,24 +1,4 @@
----
-title: "UD 2 - P11: Construcción de imagen Docker con PHP y base de datos"
-description: "Creación de imágenes Docker configurables para aplicaciones PHP con MariaDB"
-summary: "Actividad práctica para crear imágenes Docker que se conectan a bases de datos usando variables de entorno."
-authors:
-    - Eduardo Fdez
-date: 2025-01-13
-icon: "material/file-document-edit"
-permalink: /daw/unidad2/p2.11
-categories:
-    - DAW
-tags:
-    - Docker
-    - Dockerfile
-    - PHP
-    - MariaDB
-    - Variables de entorno
-    - Base de datos
----
-
-## Relación 2.11
+# Práctica 2.3
 
 ### Descripción
 
