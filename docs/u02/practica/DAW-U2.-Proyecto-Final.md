@@ -1,26 +1,4 @@
----
-title: "UD 2 - Proyecto Final: Sistema de Blog con Microservicios"
-description: "Proyecto integrador de Docker con múltiples servicios y tecnologías"
-summary: "Proyecto final que integra todos los conceptos aprendidos: Docker, Docker Compose, construcción de imágenes y arquitectura de microservicios."
-authors:
-    - Eduardo Fdez
-date: 2025-01-13
-icon: "material/file-document-edit"
-permalink: /daw/unidad2/proyecto-final
-categories:
-    - DAW
-tags:
-    - Docker
-    - Docker Compose
-    - Microservicios
-    - Proyecto
-    - PHP
-    - MySQL
-    - Nginx
-    - Redis
----
-
-## Proyecto Final - Sistema de Blog con Microservicios
+# Proyecto Final - Sistema de Blog con Microservicios
 
 ### Descripción
 
