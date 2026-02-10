@@ -16,11 +16,14 @@
 !docs/u02/
 !docs/u02/practica/
 !docs/u02/actividades/
+!docs/u03/
 
 # Permitir la estructura de carpetas de teoria/extra
 !docs/u01/teoria/
 !docs/u01/teoria/extra/
 !docs/u01/teoria/extra/**
+!docs/u03/teoria/
+!docs/u03/teoria/**
 
 # Permitir la carpeta de actividades y la actividad A01
 !docs/u01/actividades/
